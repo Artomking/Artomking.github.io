@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vCard - Personal Portfolio</title>
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<main>
+    <div class="overlay" data-overlay></div>
+
+    <button class="modal-close-btn" data-modal-close-btn>
+    </button>
+
+    <aside class="sidebar" data-sidebar>
+
+        <div class="sidebar-info">
+
+            <figure class="avatar-box">
+                <img src="./assets/images/my-avatar.png" alt="Artom Zabihi" width="80">
+            </figure>
+
+            <div class="info-content">
+                <h1 class="name" title="Artom Zabihi">Artom Zabihi</h1>
+
+                <p class="title">Computer Programmer</p>
+            </div>
+
+            <button class="info_more-btn" data-sidebar-btn>
+                <span>Show Contacts</span>
+
+                <ion-icon name="chevron-down"></ion-icon>
+            </button>
+
+        </div>
+
+        <div class="sidebar-info_more">
+
+            <div class="separator"></div>
+
+            <ul class="contacts-list">
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Email</p>
+
+                        <a href="mailto:artomzabihi@gmail.com" class="contact-link">artomzabihi@gmail.com</a>
+                    </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Location</p>
+
+                        <address>Richmond Hill, Ontario, Canada</address>
+                    </div>
+
+                </li>
+
+            </ul>
+
+            <div class="separator"></div>
+
+            <ul class="social-list">
+
+                <li class="social-item">
+                    <a href="https://github.com/Artomking" class="social-link">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </aside>
+
+
+    <div class="main-content">
+
+        <nav class="navbar">
+
+            <ul class="navbar-list">
+
+                <li class="navbar-item">
+                    <button class="navbar-link  active" data-nav-link>About</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Resume</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-nav-link>Portfolio</button>
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <article class="about  active" data-page="about">
+
+            <header>
+                <h2 class="h2 article-title">About me</h2>
+            </header>
+
+            <section class="about-text">
+                <p>
+                    I am a graduating computer programming student at Seneca Polytechnic, dabbling in web development, application
+                    development, and game development. I enjoy the breadth of my knowledge when it comes to programming and finding
+                    new way to solve problems.
+                </p>
+
+
+            </section>
+
+            <section class="skill">
+
+                <h3 class="h3 skills-title">My skills</h3>
+
+                <ul class="skills-list">
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5" >Coding Languages</h5>
+                        </div>
+                        <div class="tech-icons">
+                            <i class="devicon-python-plain-wordmark colored"></i>
+                            <i class="devicon-cplusplus-plain colored"></i>
+                            <i class="devicon-c-plain colored"></i>
+                            <i class="devicon-csharp-plain colored"></i>
+                            <i class="devicon-java-plain-wordmark colored"></i>
+                            <i class="devicon-javascript-plain-wordmark colored"></i>
+                            <i class="devicon-html5-plain-wordmark colored"></i>
+                            <i class="devicon-css3-plain-wordmark colored"></i>
+                        </div>
+
+                    </li>
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5">Frameworks/Libraries</h5>
+                        </div>
+
+                        <div class="tech-icons">
+                            <i class="devicon-nodejs-plain-wordmark colored"></i>
+                            <i class="devicon-opengl-plain colored"></i>
+                            <i class="devicon-react-original-wordmark colored"></i>
+                            <i class="devicon-nextjs-original-wordmark colored"></i>
+                            <i class="devicon-selenium-original colored"></i>
+                        </div>
+
+                    </li>
+
+                    <li class="skills-item">
+
+                        <div class="title-wrapper">
+                            <h5 class="h5">Tools</h5>
+                        </div>
+
+                        <div class="tech-icons">
+                            <i class="devicon-bitbucket-original-wordmark colored"></i>
+                            <i class="devicon-azure-plain-wordmark colored"></i>
+                            <i class="devicon-git-plain-wordmark colored"></i>
+                            <i class="devicon-jira-plain-wordmark colored"></i>
+                            <i class="devicon-mongodb-plain-wordmark colored"></i>
+                            <i class="devicon-azuresqldatabase-plain colored"></i>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </section>
+        </article>
+
+
+
+        <article class="resume" data-page="resume">
+
+            <header>
+                <h2 class="h2 article-title">Resume</h2>
+            </header>
+
+            <section class="timeline">
+
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3">Education</h3>
+                </div>
+
+                <ol class="timeline-list">
+
+                    <li class="timeline-item">
+
+                        <h4 class="h4 timeline-item-title">Seneca Polytechnic</h4>
+
+                        <span>2022 - 2025</span>
+                        <p class="timeline-text">
+                            Computer Programming and Analysis - Ontario College Advanced Diploma
+                        </p>
+
+                    </li>
+
+                </ol>
+
+            </section>
+
+            <section class="timeline">
+
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3">Experience</h3>
+                </div>
+
+                <ol class="timeline-list">
+
+                    <li class="timeline-item">
+
+                        <h4 class="h4 timeline-item-title">Quality Assurance Analyst Intern, Corpay</h4>
+
+                        <span>June 2024 - September 2024</span>
+
+                        <p class="timeline-text">
+                            Wrote several Selenium scripts using C# and Gherkin to perform automated tests for Corpay Cross-Border payments client-side application.
+                            <br>Developed test plans and executed test cases through TestRail.
+                            <br>Created regression and integration tests the client-side application.
+                            <br>Wrote and executed MS SQL queries and scripts to obtain and change information in the database for
+                            testing purposes.
+                        </p>
+
+                    </li>
+
+                    <li class="timeline-item">
+
+                        <h4 class="h4 timeline-item-title">Compliance Analyst Intern, Corpay</h4>
+                        <span>July 2023 - December 2023</span>
+
+                        <p class="timeline-text">
+                            KYC review checks, analysis, screening, and account setup of Low-Medium AML risk prospect & downstream
+                            accounts.
+                            <br>Re-accreditation/KYC refresh of existing Low and Medium AML Risk accounts
+                            <br>Worked closely with Senior Compliance Analysts on any other ad hoc compliance-related assignments.
+                        </p>
+
+                    </li>
+
+                    <li class="timeline-item">
+
+                        <h4 class="h4 timeline-item-title">Front Desk Receptionist, RE/MAX Hallmark Realty</h4>
+                        <span>May 2022 - Present</span>
+
+                        <p class="timeline-text">
+                            Maintaining Microsoft Excel spreadsheets with constantly updating information.
+                            <br>Utilizing a multi-line phone system to answer calls from clients and transfer them to the appropriate department.
+                            <br>Greeting clients with hospitality
+                        </p>
+
+                    </li>
+
+                </ol>
+
+            </section>
+
+        </article>
+
+        <article class="portfolio" data-page="portfolio">
+
+            <header>
+                <h2 class="h2 article-title">Portfolio</h2>
+            </header>
+
+            <section class="projects">
+
+                <ul class="filter-list">
+
+                    <li class="filter-item">
+                        <button class="active" data-filter-btn>All</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Applications</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Web development</button>
+                    </li>
+
+                </ul>
+
+                <div class="filter-select-box">
+
+                    <button class="filter-select" data-select>
+
+                        <div class="select-value" data-selecct-value>Select category</div>
+
+                        <div class="select-icon">
+                            <ion-icon name="chevron-down"></ion-icon>
+                        </div>
+
+                    </button>
+
+                    <ul class="select-list">
+
+                        <li class="select-item">
+                            <button data-select-item>All</button>
+                        </li>
+
+
+                        <li class="select-item">
+                            <button data-select-item>Applications</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>Web development</button>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <ul class="project-list">
+
+                    <li class="project-item  active" data-filter-item data-category="applications">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./assets/images/Job%20Application%20Portal.png" alt="Job Application Portal" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Job Application Portal</h3>
+
+                            <p class="project-category">Applications</p>
+
+                        </a>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="applications">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./assets/images/Journaling%20Application.png" alt="orizon" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Journaling Application</h3>
+
+                            <p class="project-category">Applications</p>
+
+                        </a>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="web development">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./assets/images/Music%20Database.png" alt="fundo" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Music Database</h3>
+
+                            <p class="project-category">Web Development</p>
+
+                        </a>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="applications">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./assets/images/Neko%20Tower%20Dash.png" alt="brawlhalla" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Neko Tower Dash</h3>
+
+                            <p class="project-category">Applications</p>
+
+                        </a>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="web development">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./assets/images/Rental%20Website.png" alt="dsm." loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Rental Website</h3>
+
+                            <p class="project-category">Web Development</p>
+
+                        </a>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="applications">
+                        <a href="#">
+
+                            <figure class="project-img">
+                                <div class="project-item-icon-box">
+                                    <ion-icon name="eye-outline"></ion-icon>
+                                </div>
+
+                                <img src="./assets/images/Space%20Invaders%20Clone.png" alt="metaspark" loading="lazy">
+                            </figure>
+
+                            <h3 class="project-title">Space Invaders</h3>
+
+                            <p class="project-category">Applications</p>
+
+                        </a>
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+
+    </div>
+
+</main>
+
+<script src="./assets/js/script.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
