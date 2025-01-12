@@ -809,7 +809,7 @@ main {
   transition: var(--transition-1);
 }
 
-.project-item > a:hover .project-img::before { background: hsla(0, 0%, 0%, 0.5); }
+
 
 .project-item-icon-box {
   --scale: 0.8;
@@ -828,10 +828,7 @@ main {
   transition: var(--transition-1);
 }
 
-.project-item > a:hover .project-item-icon-box {
-  --scale: 1;
-  opacity: 1;
-}
+
 
 .project-item-icon-box ion-icon { --ionicon-stroke-width: 50px; }
 
@@ -845,7 +842,7 @@ main {
   border-radius: 8px;
 }
 
-.project-item > a:hover img { transform: scale(1.1); }
+
 
 .project-title,
 .project-category { margin-left: 10px; }
